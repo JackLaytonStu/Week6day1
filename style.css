@@ -1,0 +1,72 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+.header {
+    margin-top: 10px;
+    margin-left: 75px;
+   
+}
+.header h1 {
+    font-size: 32px;;
+}
+hr {
+    margin-left: 0px;
+    color: #000;
+    display: flex;
+    width: 100px;
+}
+body {
+    background-color: #dbdbdb;
+}
+.productList {
+
+    
+}
+
+.inStock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: calc(50% - 50px);
+    background-color: #fff;
+    margin: 5px 75px;
+    padding:10px;
+    border-radius: 3px;
+    border: 1px solid #555;
+    box-shadow: 0 0 2px #ababab;
+    padding-right: 100px;
+    
+}
+
+.darkMode .productList .inStock{
+    background-color: #555;
+    border: 1px solid #999;
+    box-shadow: 0 0 3px #ababab;
+}
+.darkMode {
+    color: #fff;
+    background-color: #222;
+  }
+
+#darkModeToggle {
+    border: 1px solid #555;
+    box-shadow: 0 0 2px #ababab;
+    background-color: #fff;
+    margin-left: 75px;
+    margin-top: 0px;
+    display: inline-block;
+    padding:10px;
+    border-radius: 3px;
+  }
+.darkMode #darkModeToggle {
+    background-color: #555;
+    border: 1px solid #999;
+    box-shadow: 0 0 3px #ababab;
+}
+  #darkModeToggle:hover {
+    cursor: pointer;
+  }
